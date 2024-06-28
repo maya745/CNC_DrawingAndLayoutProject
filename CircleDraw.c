@@ -17,8 +17,6 @@ int main() {
 
     }
 
-//int pointOnCircle[] = {}
-
     printf("Points on a circle of radius %d\n", radius);
 
     for (theta = 0; theta <= 2 * pi; theta += 0.1) { //for loop unitl finish circle
