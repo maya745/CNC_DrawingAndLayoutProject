@@ -10,19 +10,24 @@ int main() {
 
     float theta;
 
-    //function will calculate coordinates and print them
-    void pointOnCircle(float theta) {
-        xCoord = radius * cos(theta);     //value of x-coordinate. theta will increase over time
-        yCoord = radius * sin(theta);     //value of y-coordinate. Similar to x-coord
+    void pointOnCircle(float theta) {  //A function giving point coordinate
+        xCoord = radius * cos(theta); //value of x-coordinate. i is theta and increases over time
+        yCoord = radius * sin(theta); //value of y-coordinate. Similar to x-coord
         printf("(%.2f, %.2f)\n", xCoord, yCoord);
 
     }
 
+//int pointOnCircle[] = {}
+
     printf("Points on a circle of radius %d\n", radius);
 
     for (theta = 0; theta <= 2 * pi; theta += 0.1) { //for loop unitl finish circle
-      pointOnCircle(theta);                          //call function that prints points
+      pointOnCircle(theta);           //call function that prints points
     }
+
+    //give initial point again
+    theta = 0;
+    pointOnCircle(theta);
 
       return 0;
 }
