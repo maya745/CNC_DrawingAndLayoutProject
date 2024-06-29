@@ -41,6 +41,7 @@ int main () {
         }
     }
 
+    // Start finding side and angle values (input must be integer)
     // Get first side length.
     printf("What is the length of the first side in mm?\n");
     scanf("%f", &t1.sidec);
@@ -127,7 +128,6 @@ int main () {
     coordArray[2].yCoord = t1.sidea * sin(t1.angleB);
 
     // Call function to print coordinates from myFunctions library
-
     printCoordArray(coordArray, vertices);
 
     // Provide the side lengths and angles so finding them wasn't pointless
@@ -140,7 +140,7 @@ int main () {
 
 
     printf("The angles values are %.2f, %.2f, and %.2f in degrees.\n", t1.angleC, t1.angleA, t1.angleB);
-
+    // :)
 
     return 0;
 } 
