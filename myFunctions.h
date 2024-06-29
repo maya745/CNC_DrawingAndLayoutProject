@@ -8,13 +8,13 @@ struct Coordinates {
     float yCoord;
 };
 
-void printCoordArray(struct Coordinates Array[], int vrtcs) {
+void printCoordArray(struct Coordinates Array[], int vertices) {
     
     Sleep(100);
     printf("Okay. Here's your points:\n");
 
     Sleep(100);
-       for (int i = 0; i < vrtcs; i++) {        //create for loop to print out the coordinate values
+       for (int i = 0; i < vertices; i++) {        //create for loop to print out the coordinate values
         printf("(%.2f, %.2f)\n", Array[i].xCoord, Array[i].yCoord);
     }
 
