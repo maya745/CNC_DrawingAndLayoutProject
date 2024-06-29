@@ -32,14 +32,8 @@ int main () {
     int sidesGiven;
 
     // Determine if it's a SAA, SSA, or SSS triangle
-    while (sidesGiven != 1, sidesGiven != 2, sidesGiven != 3) { // This breaks if a letter is typed in
-        printf("Are you going to provide 1, 2, or 3 sides? \n");
-        scanf("%d", &sidesGiven);
-        // Safety if-statement
-        if (sidesGiven == 1, sidesGiven == 2, sidesGiven == 3) {
-            break;
-        }
-    }
+    printf("Are you going to provide 1, 2, or 3 sides? \n");
+    scanf("%d", &sidesGiven);    
 
     // Start finding side and angle values (input must be integer)
     // Get first side length.
