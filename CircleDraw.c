@@ -23,9 +23,5 @@ int main() {
       pointOnCircle(theta);           //call function that prints points
     }
 
-    //give initial point again
-    theta = 0;
-    pointOnCircle(theta);
-
       return 0;
 }
