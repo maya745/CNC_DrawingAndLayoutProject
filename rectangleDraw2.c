@@ -3,8 +3,8 @@
 #include "myFunctions.h"
 
 //create length and width variables
-    float maxWidth;
-    float maxLength;
+    const float maxWidth;
+    const float maxLength;
 
 int main() {
 
@@ -37,9 +37,8 @@ int main() {
     coordArray[3].xCoord = maxLength;
     coordArray[3].yCoord = 0;           //final vertex
 
+    //call function from myFunction library
     printCoordArray(coordArray, vertices);    
-
-    printf("(0, 0) \n");        //the last point should be repeated to finish the shape
 
     return 0;
 }
