@@ -125,7 +125,8 @@ int main () {
     // Provide the side lengths and angles so finding them wasn't pointless
     printf("The side lengths are %.2f, %.2f, and %.2f.\n", t1.sidec, t1.sidea, t1.sideb);
 
-    // Convert the angles to degrees. It might be useful to have an array of angles here.
+    // Convert the angles to degrees.
+    // It might be useful to have an array of angles here.
     t1.angleC = t1.angleC * (180/3.14159);
     t1.angleA = t1.angleA * (180/3.14159);
     t1.angleB = t1.angleB * (180/3.14159);
