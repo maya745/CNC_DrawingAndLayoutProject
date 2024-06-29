@@ -130,6 +130,7 @@ int main () {
     t1.angleA = t1.angleA * (180/3.14159);
     t1.angleB = t1.angleB * (180/3.14159);
     printf("The angles values are %.2f, %.2f, and %.2f in degrees.\n", t1.angleC, t1.angleA, t1.angleB);
+    
     // :)
 
     return 0;
