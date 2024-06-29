@@ -35,7 +35,7 @@ int main () {
     while (sidesGiven != 1, sidesGiven != 2, sidesGiven != 3) { // This breaks if a letter is typed in
         printf("Are you going to provide 1, 2, or 3 sides? \n");
         scanf("%d", &sidesGiven);
-        // Safety if statement
+        // Safety if-statement
         if (sidesGiven == 1, sidesGiven == 2, sidesGiven == 3) {
             break;
         }
@@ -89,7 +89,6 @@ int main () {
         // Find angleC (unneccessary)  :(
         t1.angleC = acos((t1.sidec * t1.sidec - t1.sidea * t1.sidea - t1.sideb * t1.sideb) / (-2 * t1.sidea * t1.sideb));
     
-    // Create else statement for if they input 3 or anything else
     // SSS
     } else {
         // Get two more values
