@@ -1,9 +1,7 @@
 #include <stdio.h>
 #include "myFunctions.h"
 #include <stdbool.h>
-#define _USE_MATH_DEFINES // Does this help for using pi?? Pi has been my biggest problem. I need some pie.
-
-//This program ain't perfect but it makes me happy
+#define _USE_MATH_DEFINES // Does this help for using pi?? Pi has been my biggest problem.
 
 // Create structure for all sides and angles.
 struct triangle {
@@ -14,7 +12,7 @@ struct triangle {
 
     float angleA;
     float angleB;
-    float angleC;   // Not actually needed :(
+    float angleC;   // Not actually needed
 };
 
 int main () {
